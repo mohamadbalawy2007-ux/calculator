@@ -1,0 +1,72 @@
+
+name: calculator
+description: "A new Flutter project."
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number is used as versionCode.
+# Read more about versioning at:
+# https://developer.android.com/studio/publish/versioning
+version: 1.0.0+1
+
+# Specifies the Dart SDK version required by this project.
+environment:
+  sdk: ^3.13.2
+
+# Dependencies specify other packages that your application needs.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Adds the Cupertino Icons font for iOS-style icons.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  # Provides testing tools for Flutter applications.
+  flutter_test:
+    sdk: flutter
+
+  # Provides recommended lint rules for Dart and Flutter.
+  # The rules are configured in analysis_options.yaml.
+  flutter_lints: ^6.0.0
+
+  # Generates launcher icons for Android and iOS.
+  flutter_launcher_icons: ^0.14.4
+
+# Configuration for generating the application launcher icons.
+flutter_launcher_icons:
+  # Generate launcher icons for Android.
+  android: true
+
+  # Generate launcher icons for iOS.
+  ios: true
+
+  # Path to the calculator icon image.
+  # Make sure the file exists at this exact location.
+  image_path: "assets/Icons/icon_retro.png"
+
+# The following section is specific to Flutter packages.
+flutter:
+  # Includes the Material Design icon font.
+  uses-material-design: true
+
+  # Add your application assets here if needed.
+  # Example:
+  # assets:
+  #   - assets/images/example.png
+
+  # Add custom fonts here if needed.
+  # Example:
+  # fonts:
+  #   - family: MyFont
+  #     fonts:
+  #       - asset: assets/fonts/MyFont-Regular.ttf
+  #       - asset: assets/fonts/MyFont-Bold.ttf
+  #         weight: 700
